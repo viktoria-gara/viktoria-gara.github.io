@@ -2,7 +2,7 @@
 
 ## Alcím
 
-Lorem ipsum **dolor** sit, amet *consectetur* adiüisicing elit.
+Lorem ipsum **dolor** sit, amet *consectetur* adipisicing elit.
 
 ```python
 print('Viktoria')
@@ -15,21 +15,25 @@ print('Viktoria')
 
 <http://www.programozaskarrier.hu>
 
-szogleteszarojel www.google.com szogleteszarojel
+[Valamilyen hivatkozás](www.google.com)
 
-1.Felsorolas
- 1.Felsorolas
- 1.Felsorolas
-1.Felsorolas
- 1.Felsorolas
- 1.Felsorolas 
+1. Felsorolás 
+   1. Felsorolás 
+   1. Felsorolás 
+1. Felsorolás 
+   1. Felsorolás 
+   2. Felsorolás 
+
+- Első pont
+- Második pont
+- Harmadik pont 
 
  - [x] Elso
  - [ ] Masodik
  - [ ] Harmadik
 
-Lorem [^viki] ipsum **dolor** sit, amet *consectetur* adiüisicing 'elit'.
+Lorem[^1] ipsum **dolor** sit, amet *consectetur* adiüisicing `elit.`(jobb alt és 7)
 
-[^viki] valamilyen magyarazat.
+[^1]:valamilyen magyarazat.
 
 
