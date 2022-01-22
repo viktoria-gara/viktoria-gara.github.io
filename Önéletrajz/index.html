@@ -4,67 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viktoria Gara</title>
+    <title>Személyes Portfólió</title>
 </head>
-<section class="kep">
-    <img src="profil.jpg" alt="Profilkép">
-</section>
 <body>
-    <h1>Gara Viktória</h1> 
-        <h2>Önéletrajz</h2>
-        <h3>Személyes adatok</h3>
-        <ul>
-            <li><strong>Név:</strong> Gara Viktória</li>
-            <li><strong>Születési idő:</strong> 1989.10.11</li>
-            <li><strong>Lakcím:</strong> Németország</li>
-            <li><strong>e-mail:</strong> viktoria.gara89@gmail.com</li>
-            <li><strong>Telefonszám:</strong> +49123456789</li>
-        </ul>
-        <h3>Tanulmányok</h3>
-        <ul>
-        <li><strong>1996-2004:</strong>  <em>Arany János Általános iskola</em> </li>
-        <li><strong>2004-2008:</strong> <em>Bólyai János Gimnázium</em>
-
-        </li>
-    </ul>
-    <h3>Szakmai tapasztalat</h3>
-    <ul>
-        <li><strong>Magyarország</strong> - ...</li>
-        <li><strong>Svájc</strong> - ...</li>
-        <li><strong>Németország</strong> - ...</li>
-    </ul>
-    <h3>Nyelvismeret</h3>
-    <ul>
-        <li><strong>Német</strong> - folyékonyan szóban és írásban (b2 középfok)</li>
-        <li><strong>Angol</strong> - (kezdő)</li>
-    </ul>
-    <h3>Kompetenciák</h3>
-    <ul>
-        <li><strong>Személyes kompetenciák:</strong>
-            <ul> 
-                <li>Erős kommunikációs készség</li>
-                <li>Magabiztosság</li>
-                <li>Barátságosság</li>
-                <li>Tanulékonyság</li>
-                <li>Fejlődés orientáltság</li>
-                <li>Kitartás</li>
-                <li>Megbízhatóság</li>
-        </ul>
-        </li>
-            <li><strong>Egyéb kompetenciák:</strong> 
+    <header>
+        <nav>
+            
+            <h1 class="logo">Gara Viktória Front-end Developer</h1>
+            <img src="./images/profil.jpg" alt="Profilkép">
+            <ul>
+                <li><a href="#">Főoldal</a></li>
+                <li><a href="#bemutatkozas">Bemutatkozás</a></li>
+                <li><a href="#referenciak">Referenciák</a></li>
+                <li><a href="#Kapcsolat">Kapcsolat</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <main>
+        <section class="bemutatkozas">
+            <div class="bemutatkozas">
+                <h2>Bemutatkozás</h2>
+                
+                <h3>Üdvözöllek az oldalamon!</h3>
+                <p>2021 óta foglalkozom weboldalak készítésével.Ismereteim körébe tartoznak:</p>
                 <ul>
-                    <li>15 év gépjárművezetési tapasztalat</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
                 </ul>
-            </li>
-    </ul>
-    <h3>Hobbi</h3>
-    <ul>
-        <li>Sport - Kettlebell</li>
-        <li>Tanulás</li>
-        <li>Olvasás</li>
-        <li>Önfejlesztés</li>
-    </ul>
-
-    
+                <p>Keressen bizalommal,hogy együtt megvalósítsuk elképzeléseit.</p>
+                <img src="./images/tartalom.png" alt="tartalom">
+            </div>        
+            <div class="referenciak">
+                <h2>Referenciák</h2>
+                <img src="./images/referencia.png" alt="Referencia">
+                <p>Referenciáim a galériában megtekinthetőek.</p>
+            </div>
+            </section>
+            
+            <form action="https://formspree.io/f/xdobayyw" method="POST">
+                <section>
+                    <h2>Kapcsolat</h2>
+                    <h4>Az alábbi űrlap kitöltésével felveheti velem a kapcsolatot</h4>
+                    <label>
+                        ....Név:
+                        <input 
+                        type="text" 
+                        name="név">
+                    </label>
+                </section>
+                <section>
+                    <label>
+                        E-mail:
+                        <input 
+                        type="text" 
+                        name="email" 
+                        id="email-id"></label>
+                </section>
+                <section>
+                    <label>
+                        Üzenet:
+                        <textarea name="üzenet"  cols="30" rows="5">Lépjen velem kapcsolatba</textarea>
+                    </label>                  
+                </section>
+                <input type="submit" value="Beküldés">
+            </form>
+            </section>
+    </main>
+    <footer>
+        <nav>
+            <ul class="social-links">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </nav>
+        Copyright &copy; Gara Viktória 2022
+    </footer>
 </body>
 </html>
