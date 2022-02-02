@@ -5,74 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Személyes Portfólió</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
-            
-            <h1 class="logo">Gara Viktória Front-end Developer</h1>
-            <img src="./images/profil.jpg" alt="Profilkép">
+        <div class="logo"><a href="#">Gara Viktória Front-end Developer</a></div>
+        
+        <nav>                                    
             <ul>
-                <li><a href="#">Főoldal</a></li>
-                <li><a href="#bemutatkozas">Bemutatkozás</a></li>
-                <li><a href="#referenciak">Referenciák</a></li>
-                <li><a href="#Kapcsolat">Kapcsolat</a></li>
+                <li><a href="#">Főoldal</a></></li>
+                <li><a href="Önéletrajz1.html">Bemutatkozás</a></li>
+                <li><a href="about.html">Galéria</a></li>
+                <li><a href="kapcsolat.html">Kapcsolat</a></li>
             </ul>            
         </nav>
     </header>
     <main>
-        <section class="bemutatkozas">
-            <div class="bemutatkozas">
-                <h2>Bemutatkozás</h2>
-                
+        <section class="tartalom">
+            <div class="bemutatkozas">               
                 <h3>Üdvözöllek az oldalamon!</h3>
                 <p>2021 óta foglalkozom weboldalak készítésével.Ismereteim körébe tartoznak:</p>
-                <ul>
+                <ul class="body-menu">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Python</li>
                     <li>JavaScript</li>
                     <li>React</li>
-                </ul>
+                </ul>               
                 <p>Keressen bizalommal,hogy együtt megvalósítsuk elképzeléseit.</p>
-                <img src="./images/tartalom.png" alt="tartalom">
-            </div>        
-            <div class="referenciak">
-                <h2>Referenciák</h2>
-                <img src="./images/referencia.png" alt="Referencia">
-                <p>Referenciáim a galériában megtekinthetőek.</p>
-            </div>
-            </section>
-            
-            <form action="https://formspree.io/f/xdobayyw" method="POST">
-                <section>
-                    <h2>Kapcsolat</h2>
-                    <h4>Az alábbi űrlap kitöltésével felveheti velem a kapcsolatot</h4>
-                    <label>
-                        ....Név:
-                        <input 
-                        type="text" 
-                        name="név">
-                    </label>
-                </section>
-                <section>
-                    <label>
-                        E-mail:
-                        <input 
-                        type="text" 
-                        name="email" 
-                        id="email-id"></label>
-                </section>
-                <section>
-                    <label>
-                        Üzenet:
-                        <textarea name="üzenet"  cols="30" rows="5">Lépjen velem kapcsolatba</textarea>
-                    </label>                  
-                </section>
-                <input type="submit" value="Beküldés">
-            </form>
-            </section>
+                <!--<img 
+                width="350px"
+                src="./images/tartalom.png" 
+                alt="tartalom">  -->          
+            </div>           
     </main>
+
     <footer>
         <nav>
             <ul class="social-links">
@@ -83,5 +53,6 @@
         </nav>
         Copyright &copy; Gara Viktória 2022
     </footer>
+
 </body>
 </html>
