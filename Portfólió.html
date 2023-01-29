@@ -5,83 +5,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Személyes Portfólió</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/header.css">
+    <link rel="stylesheet" href="./assets/fooldal.css">
 </head>
 <body>
+    <!--Header-->
     <header>
-        <nav>
-            
-            <h1 class="logo">Gara Viktória Front-end Developer</h1>
-            <img src="./images/profil.jpg" alt="Profilkép">
-            <ul>
-                <li><a href="#">Főoldal</a></li>
-                <li><a href="#bemutatkozas">Bemutatkozás</a></li>
-                <li><a href="#referenciak">Referenciák</a></li>
-                <li><a href="#Kapcsolat">Kapcsolat</a></li>
-            </ul>            
-        </nav>
-    </header>
-    <main>
-        <section class="bemutatkozas">
-            <div class="bemutatkozas">
-                <h2>Bemutatkozás</h2>
-                
-                <h3>Üdvözöllek az oldalamon!</h3>
-                <p>2021 óta foglalkozom weboldalak készítésével.Ismereteim körébe tartoznak:</p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>React</li>
-                </ul>
-                <p>Keressen bizalommal,hogy együtt megvalósítsuk elképzeléseit.</p>
-                <img src="./images/tartalom.png" alt="tartalom">
-            </div>        
-            <div class="referenciak">
-                <h2>Referenciák</h2>
-                <img src="./images/referencia.png" alt="Referencia">
-                <p>Referenciáim a galériában megtekinthetőek.</p>
+        <!--Logo-->
+        <a href="#fooldal" class="header-logo">Viktoria Gara</a>
+        <nav> 
+            <input type="checkbox" id="nav-checkbox" class="nav-checkbox">   
+            <label for="nav-checkbox">
+            <div  class="nav-checkbox__gomb">
+                <div class="nav-checkbox__vonal"></div>
+                <div class="nav-checkbox__vonal"></div>
+                <div class="nav-checkbox__vonal"></div>
             </div>
-            </section>
+        </label>
+        <ul class="header-lista">
+            <li class="header-lista__elem"><a href=" #fooldal">Startseite</a></li>
+            <li class="header-lista__elem"><a href="#rolam">Über mich</a></li>
+            <li class="header-lista__elem"><a href="#portfolio">Portfolio</a></li>
+            <li class="header-lista__elem"><a href="#kapcsolat">Kontakt</a></li>
+        </ul>
+        </nav>     
+    </header>
+    <!--MAIN-->
+    <main>
+        <!--Főoldal-->
+        <section id="fooldal">
+            <!--konténer-->
+            <div class="fooldal-kontener">
+                <h1 class="fooldal-nev">Viktoria Gara</h1>
+                <h2 class="fooldal-szakma">Frontend
+                    <span class="fooldal-szakma__kiemeles">Developer</span>
+                </h2>
+                <a href="#kapcsolat" class="fooldal-gomb">Kontakt</a>
+            </div>
+            <!--Kép-->
+            <img src="./images/Black_Gold_Modern_Building_A_Digital_Successful_Business_Instagram_Post.png" alt="Viktoria Gara" class="fooldal-kep"> 
+        </section>
+        <!--Rólam-->
+        <section id="rolam">
+            <!--Cím-->
+            <h2 class="section-cim">Über mich</h2>
+            <!--Konténer-->
+            <div class="rolam-kontener">
+                <!--Technológia-->
+                <div class="rolam-technologiak">
+                    <img 
+                    class="rolam-technologiak__kep"
+                    src="" alt="Viktoria Gara">
+                    <div class="rolam-technologiak__kontener">
+                        <p class="rolam-technologiak__cim">Technologie:</p>
+                        <ul class="rolam-technologiak__lista">
+                            <li class="rolam-technologiak__elem">HTML</li>
+                            <li class="rolam-technologiak__elem">CSS</li>
+                            <li class="rolam-technologiak__elem">JavaScript</li>
+                            <li class="rolam-technologiak__elem">Wordpress</li>
+                        </ul>
+                    </div>
+            </div>
+                <!--Tartalom-->
+            <div class="rolam-tartalom">
+                <h4 class="rolam-tartalom__udv">Hello, Ich heiße</h4>
+                <h3 class="rolam-tartalom__nev">Viktoria Gara</h3>
+                <h4 class="rolam-tartalom__udv">Frontend Developer</h4>
+                <p class="rolam-tartalom__szoveg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur esse ex enim omnis nemo, perspiciatis labore totam. Beatae, laudantium excepturi?</p>
+                <div class="rolam-tartalom__kontener">
+                    <a class="rolam-tartalom__gomb gomb-kapcsolat" href="#kapcsolat">Kontakt</a>
+                    <a class="rolam-tartalom__gomb gomb-cv" href="./assets/Önéletrajz1.html" download>Lebenslauf</a>
+                </div>
+            </div>        
+            </div>
+        </section>
+        <!--Portfólió-->
+        <section id="portfolio">
+            <!--Cim-->
+            <h2 class="section-cim">Portfolio</h2>
+            <div class="portfolio-kontener">
+                <div class="portfolio-projekt">
+                    <img src="./images/referencia.png" alt="Meine Projekte" class="portfolio-projekt__kep">
+                    <div class="portfolio-projekt__kontener">
+                        <h3>Portfolio Seite</h3>
+                        <div class="portfolio-projekt__linkek">
+                            <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>               
+                    </div>
+                </div>
             
-            <form action="https://formspree.io/f/xdobayyw" method="POST">
-                <section>
-                    <h2>Kapcsolat</h2>
-                    <h4>Az alábbi űrlap kitöltésével felveheti velem a kapcsolatot</h4>
-                    <label>
-                        ....Név:
-                        <input 
-                        type="text" 
-                        name="név">
-                    </label>
-                </section>
-                <section>
-                    <label>
-                        E-mail:
-                        <input 
-                        type="text" 
-                        name="email" 
-                        id="email-id"></label>
-                </section>
-                <section>
-                    <label>
-                        Üzenet:
-                        <textarea name="üzenet"  cols="30" rows="5">Lépjen velem kapcsolatba</textarea>
-                    </label>                  
-                </section>
-                <input type="submit" value="Beküldés">
+                <div class="portfolio-projekt">
+                    <img src="./images/referencia.png" alt="Meine Projekte" class="portfolio-projekt__kep">
+                    <div class="portfolio-projekt__kontener">
+                        <h3>Portfolio Seite</h3>
+                        <div class="portfolio-projekt__linkek">
+                            <a href="https://github.com/viktoria-gara" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/viktoria-gara" target="_blank"><i class="fa-solid fa-arrow-right"></i></a>
+                        </div>               
+                    </div>
+                </div> 
+        </section>
+        <!--Kapcsolat-->
+        <section id="kapcsolat">
+            <h2 class="section-cim">Kontakt</h2>
+            <h3 class="kapcsolat-szoveg">Hier können Sie mir Nachricht senden</h3>
+            <form class="kapcsolat-form" action="https://formspree.io/f/mzbqpwvb"
+            method="POST">
+            <input type="text" name="name" id="name" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <textarea id="message" name="message" placeholder="Nachricht"></textarea>
+            <input type="submit" value="Senden"> 
             </form>
-            </section>
-    </main>
-    <footer>
-        <nav>
-            <ul class="social-links">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">LinkedIn</a></li>
+            <ul class="kapcsolat-social">
+                <li class="kapcsolat-social__elem">
+                    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li class="kapcsolat-social__elem">
+                    <a href="https://de.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li class="kapcsolat-social__elem">
+                    <a href="https://github.com/viktoria-gara" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+                </li>
             </ul>
-        </nav>
-        Copyright &copy; Gara Viktória 2022
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="footer-copyright">
+            <p class="footer-copyright__elem">Copyright</p>
+            <span class="footer-copyright__elem">&copy;</span>
+            <p class="footer-copyright__elem">2023 Viktoria Gara</p>
+        </div>
+        <div class="footer-vissza">
+            <a href="#fooldal">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </div>
     </footer>
 </body>
 </html>
