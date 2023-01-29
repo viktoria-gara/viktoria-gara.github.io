@@ -1,0 +1,33 @@
+:root {
+    --beige:#FAEBD7;
+    --drap: #fefaf6;
+    --black: #000000;
+    --white: #ffffff;
+    --orange: #F5B32F;
+    --main-font: 'Josefin Sans', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+
+body {
+    background: var(--braun);
+    font-family: var(--main-font);
+}
