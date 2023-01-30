@@ -5,9 +5,9 @@ header {
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    z-index: 1;
     width: 100vw;
     height: 8vh;
-    
 }
 
 header a {

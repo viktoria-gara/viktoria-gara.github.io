@@ -1,5 +1,5 @@
 #rolam {
-    
+    border-bottom: 1px solid var(--orange);
 }
 
 .rolam-kontener {
@@ -15,7 +15,6 @@
     width: 75vw;
     margin: 0 0 0 10vw;
     filter: grayscale(100%);
-
 
 }
 
