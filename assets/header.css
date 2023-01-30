@@ -7,7 +7,6 @@ header {
     position: fixed;
     width: 100vw;
     height: 8vh;
-    opacity: 50px;
     
 }
 
@@ -24,7 +23,7 @@ header nav {
     background-color: var(--beige);
     min-width: 150px;
     max-width: 200px;
-    height: 100%;
+    /**height: 100%;**/
     right: -200px;
     visibility: hidden;
     transition: right 0.4s, visibility 0.4s;
@@ -39,7 +38,13 @@ header nav {
     display: block;
     padding: 20px 0;
     font-size: 1.2rem;
+    font-weight: 500;
     color: var(--black);
+}
+
+.header-lista__elem a:hover {
+    color: var(--orange);
+    opacity: 0.7;
 }
 
 .nav-checkbox {
@@ -66,19 +71,48 @@ header nav {
     background: var(--black);
 }
 
-@media screen and (min-width: 576px) {
-
+.header-logo {
+    margin-left: 10px;
+    width: 100px;
+    height: auto;
 }
+
 
 @media screen and (min-width: 768px) {
 
+    header nav {
+        margin-right: 0;
+    }
+
+    .nav-checkbox__gomb {
+        display: none;
+    }
+
+    .header-lista {
+        visibility: visible;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 70vw;
+        max-width: 70vw;
+        height: auto;
+
+    }
+    
+    .header-lista__elem {
+        margin: 0;
+    }
+
+    .header-lista__elem a {
+        padding: 0;
+    }
 }
 
 @media screen and (min-width: 992px) {
-
-
-}
-
-@media screen and (min-width: 1200px) {
+    .header-lista__elem a {
+        font-size: 1.4rem;
+    }
 
 }
