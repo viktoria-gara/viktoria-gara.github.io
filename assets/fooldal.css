@@ -7,11 +7,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
 
-.fooldal-kep {
-    display: none ;
-}
 
 .fooldal-kontener {
     text-align: center;
@@ -43,10 +41,12 @@
 
 .fooldal-gomb {
     color: var(--black);
+    border-radius: 20px;
     border: 2px solid var(--black);
     padding: 1rem 3rem;
     background-color: var(--beige);
     font-weight: 700;
+    font-size: 1.2rem;
     letter-spacing: 0.1rem;
 }
 

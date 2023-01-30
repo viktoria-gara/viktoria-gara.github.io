@@ -1,0 +1,117 @@
+#rolam {
+    
+}
+
+.rolam-kontener {
+    display: flex;
+    flex-direction: column-reverse;
+    background: var(--beige);
+    flex-wrap: wrap;
+}
+
+
+
+.rolam-technologiak__kep {
+    width: 75vw;
+    margin: 0 0 0 10vw;
+    filter: grayscale(100%);
+
+
+}
+
+.rolam-technologiak__lista {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    
+}
+
+.rolam-technologiak__elem {
+    margin: 1rem 0;
+}
+
+.rolam-technologiak__cim {
+    font-weight: 700;
+    font-size: 1.5rem;
+    
+}
+
+.rolam-tartalom {
+    margin: 5vh 0;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.rolam-tartalom__gomb  {
+    border-radius: 20px;
+    border: 2px solid var(--black);
+    padding: 1rem 2rem;
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    min-width: 180px;
+    
+}
+
+.rolam-tartalom__gomb:hover {
+    box-shadow: 1px 1px 5px 1px var(--black);
+    background-color: var(--drap);
+}
+
+.rolam-tartalom__szoveg {
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    margin-top: 5vh;
+}
+
+.rolam-tartalom__udv {
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.rolam-tartalom__nev {
+    color: var(--orange);
+    opacity: 0.7;
+    letter-spacing: 0.4rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.rolam-technologiak__lista {
+    color: var(--orange);
+    opacity: 0.7;
+}
+
+.rolam-tartalom__kontener {
+    margin-top: 5vh;
+    flex-wrap: wrap;
+}
+
+.rolam-technologiak__kontener {
+    background: var(--drap);
+    padding: 1rem;
+
+}
+
+.rolam-technologiak {
+    background: var(--beige);
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
