@@ -99,18 +99,44 @@
 }
 
 @media screen and (min-width: 576px) {
+    #rolam {
+        padding: 0 50px;
+    }
 
 }
 
 @media screen and (min-width: 768px) {
+    .rolam-technologiak__cim {
+        font-size: 1.6rem;
+    }
+    
+    .rolam-technologiak__elem {
+        font-size: 1.4rem;
+    }
 
+    
+    .rolam-technologiak__kep {
+        width: 60vw;
+    }
+
+    .rolam-tartalom__szoveg {
+        font-size: 1.6rem;
+    }
+
+    .rolam-tartalom__nev {
+        font-size: 2.2rem;
+    }
+
+    .rolam-tartalom__udv {
+        font-size: 1.4rem;
+    }
+
+    .rolam-tartalom__gomb {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
 
-
-}
-
-@media screen and (min-width: 1200px) {
 
 }
