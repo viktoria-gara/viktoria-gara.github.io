@@ -1,0 +1,106 @@
+#kapcsolat {
+   /** background-color: var(--beige);**/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kapcsolat-szoveg {
+    color: var(--black);
+    opacity: 0.8;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    margin: 1rem 2rem ;
+}
+
+.kapcsolat-form {
+    /**background: var(--beige);**/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 20px 0;
+    max-width: 700px;
+}
+
+.kapcsolat-form [type="text"],
+.kapcsolat-form [type="email"],
+.kapcsolat-form textarea {
+    background: var(--drap);
+    border: 2px solid var(--black);
+    width: 90%;
+    margin: 1vh auto;
+    font-size: 1.0rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 0.6rem;
+}
+
+.kapcsolat-form textarea {
+    height: 20vh;
+}
+
+.kapcsolat-form [type="text"]:focus,
+.kapcsolat-form [type="email"]:focus,
+.kapcsolat-form textarea:focus {
+    background: var(--white);
+    outline: none;
+}
+
+.kapcsolat-form [type="submit"] {
+    margin-top: 20px;
+    color: var(--black);
+    border-radius: 20px;
+    border: 2px solid var(--black);
+    background-color: var(--beige);
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    width: 90%;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 3vh 0 1vh;
+}
+
+.kapcsolat-form [type="submit"]:hover {
+    background: var(--drap);
+    border: 2px solid var(--beige);
+    box-shadow: 1px 1px 5px 1px var(--black);
+}
+
+.kapcsolat-social {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 40px 50px;
+    max-width: 800px;
+}
+
+.kapcsolat-social__elem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.kapcsolat-social__elem a {
+    color: var(--black);
+}
+
+.kapcsolat-social__elem a:hover {
+    color: var(--orange);
+}
+
+@media screen and (min-width: 576px) {
+    .kapcsolat-szoveg {
+        font-size: 1.5rem;
+        letter-spacing: 0.3rem;
+    }
+    
+    .kapcsolat-form [type="submit"]{
+        width: 200px;
+        align-self: flex-end;
+        margin: 5%;
+    }
+}

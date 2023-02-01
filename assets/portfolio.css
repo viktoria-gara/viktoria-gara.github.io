@@ -41,16 +41,22 @@
 
 @media screen and (min-width: 576px) {
     .portfolio-projekt {
-        box-shadow: 20px 20px 2px 1px var(--beige);
+        
+        box-shadow: 15px 15px 2px 1px var(--beige);
+        border: 5px solid var(--beige);
+    }
+
+    .portfolio-kontener {
+        margin: 0 20px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .portfolio-kontener {
-    margin: 50px 0;
+    
     flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
+
 }
 }
