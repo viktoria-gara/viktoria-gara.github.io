@@ -72,11 +72,13 @@
 }
 
 .rolam-tartalom__nev {
+    padding: 0.5rem;
     color: var(--orange);
     opacity: 0.7;
     letter-spacing: 0.4rem;
     font-size: 2rem;
     font-weight: 900;
+    
 }
 
 .rolam-technologiak__lista {
