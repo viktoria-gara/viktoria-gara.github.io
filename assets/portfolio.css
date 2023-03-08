@@ -3,7 +3,16 @@
     background-color: var(--drap);
 }
 
+i {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 .portfolio-kontener {
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;

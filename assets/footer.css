@@ -38,6 +38,19 @@ footer {
     color: var(--orange);
 }
 
+
+.footer-elemek a{
+    color: var(--orange);
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    line-height: 2rem;
+}
+
+a:hover {
+    color: var(--black);
+}
+
 @media screen and (min-width: 576px) {
     .footer-vissza {
         visibility: visible;

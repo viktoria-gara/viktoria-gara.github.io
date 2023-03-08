@@ -8,11 +8,10 @@
 
 
 
-.rolam-technologiak__kep {
-    width: 75vw;
-    margin: 0 0 0 10vw;
+.rolam-tartalom__kep {
+    width: 100vw;
     filter: grayscale(100%);
-
+    max-width: 300px;
 }
 
 .rolam-technologiak__lista {
@@ -24,6 +23,7 @@
 
 .rolam-technologiak__elem {
     margin: 1rem 0;
+    text-shadow: 1px 1px var(--black);
 }
 
 .rolam-technologiak__cim {
@@ -48,7 +48,6 @@
     font-weight: 700;
     letter-spacing: 0.1rem;
     min-width: 180px;
-    
 }
 
 .rolam-tartalom__gomb:hover {
@@ -57,9 +56,11 @@
 }
 
 .rolam-tartalom__szoveg {
-    font-size: 1.2rem;
+    text-align: start;
+    font-size: 1.5rem;
     padding: 1.2rem;
     margin-top: 5vh;
+    line-height: 150%;
 }
 
 .rolam-tartalom__udv {
@@ -103,20 +104,35 @@
         padding: 0 50px;
     }
 
+    .rolam-tartalom__szoveg {
+        text-align: center;
+    }
+    
+    .rolam-kontener {
+        display: flex;
+        flex-direction: column-reverse;
+        background: var(--beige);
+        flex-wrap: wrap;
+    }
+
+    .rolam-tartalom__kep {
+        display: block;
+        margin: 2rem auto;
+        border-radius: 5px;
+        max-width: 18.75rem;
+        width: 20rem;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
+
     .rolam-technologiak__cim {
         font-size: 1.6rem;
     }
     
     .rolam-technologiak__elem {
         font-size: 1.4rem;
-    }
-
-    
-    .rolam-technologiak__kep {
-        width: 60vw;
     }
 
     .rolam-tartalom__szoveg {
@@ -128,15 +144,10 @@
     }
 
     .rolam-tartalom__udv {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
     .rolam-tartalom__gomb {
         font-size: 1.4rem;
     }
-}
-
-@media screen and (min-width: 992px) {
-
-
 }
