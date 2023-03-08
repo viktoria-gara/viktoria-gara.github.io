@@ -1,15 +1,9 @@
 footer {
-    /**  display: flex;
-    justify-content: center;
-    margin-bottom: 15px;
-    flex-wrap: wrap;**/
     text-align: center;
     margin-bottom: 20px;
 }
 
 .footer-copyright {
-    /**  display: flex;
-    justify-content: space-between;**/
     width: 65%;
     
 }

@@ -1,5 +1,4 @@
 #kapcsolat {
-   /** background-color: var(--beige);**/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +13,6 @@
 }
 
 .kapcsolat-form {
-    /**background: var(--beige);**/
     display: flex;
     flex-direction: column;
     justify-content: center;

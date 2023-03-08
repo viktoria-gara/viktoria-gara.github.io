@@ -23,7 +23,6 @@ header nav {
     background-color: var(--beige);
     min-width: 150px;
     max-width: 200px;
-    /**height: 100%;**/
     right: -200px;
     visibility: hidden;
     transition: right 0.4s, visibility 0.4s;
